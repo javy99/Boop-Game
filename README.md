@@ -25,7 +25,7 @@ Your task is to create a simplified version of the board game Boop as a browser-
 - Game: the game detects when three kittens are adjacent in any direction — this includes that the three kittens are returned to the bench and the points are counted (2 pts)
 - Game: the game ends when any player reaches 5 points (1 pt)
 
-##Basic tasks (12 pts)
+## Basic tasks (12 pts)
 - Game: the game ends when a player has all their kittens on the field at the same time (1 pt)
 - Game: before placing the kittens, the game indicates (e.g. by changing the background colour of the cells) which kittens will be pushed away (1 pt)
 - Game: kittens can also be placed by dragging and dropping them from the bench to the board (2 pts)
@@ -39,6 +39,6 @@ Your task is to create a simplified version of the board game Boop as a browser-
 - Other: nice appearance and code organisation (1 pt)
 - **Late submission: -0,5 pts / started day!**
 
-##Extra tasks (additional 5 pts)
+## Extra tasks (additional 5 pts)
 - Saving: by clicking a button during the game, the current state can be permanently saved, and can later be loaded and continued from the starting screen (2 pts)
 - Timer: each player has a timer with 2 minutes of thinking time, which counts down while waiting for the given player's move (like a chess clock) — the player who runs out of thinking time automatically loses (3 pts)
