@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="starting-screen">
+        <h1>Boop the Kitten Game</h1>
+        <hr />
+        <br />
+        <label for="player1-name"><b>Player 1 Name:</b></label>
+        <br />
+        <input type="text" id="player1-name" required />
+        <br />
+        <label for="player2-name"><b>Player 2 Name:</b></label>
+        <br />
+        <input type="text" id="player2-name" required />
+        <br />
+        <label for="target-score"><b>Target Score:</b></label>
+        <br />
+        <input type="number" id="target-score" required />
+        <br>
+        <button id="start-game">START GAME!</button><br></br>
+        <button id="clear_btn">CLEAR STORAGE LIST!</button>
+  
+        <br /> <br />
+        <div class="recent-games">
+          <h2>Recent Games:</h2>
+          <ul id="recent-games-list"></ul>
+        </div>
+    </div>
+
+    <div class="game-container">
+      <div class="player_1">
+        <div id="player1-display"></div>
+        <div class="score-entry">
+          <p id="player1-score">0</p>
+        </div>
+        <div class="bench" id="player1-bench"></div>
+      </div>
+      <table></table>
+      <div class="player_2">
+        <div id="player2-display"></div>
+        <div class="score-entry">
+          <p id="player2-score">0</p>
+        </div>
+        <div class="bench" id="player2-bench"></div>
+      </div>
+      <div class="win">
+        <h1></h1>
+        <button class="restart_btn">RESTART!</button>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
